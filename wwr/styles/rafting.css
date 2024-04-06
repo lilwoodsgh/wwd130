@@ -345,5 +345,76 @@ main {
   color: #fff;
 }
 
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  display: block;
+}
+
+.newsletter button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #068D9D;
+  color: #fff;
+}
+
+.call-to-action a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Grid Layout */
+.grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  flex-basis: calc(50% - 20px); /* Adjust as needed */
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
 
 
