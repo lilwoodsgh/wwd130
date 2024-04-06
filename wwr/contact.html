@@ -56,20 +56,20 @@
     <form action="#" method="POST" class="contact-form">
         <div class="form-group">
             <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required autocomplete="given-name">
         </div>
         <div class="form-group">
             <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required autocomplete="given-email">
         </div>
         <div class="form-group">
             <label for="purpose">Purpose of Message:</label>
             <div class="radio-options">
                 <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
                 <label for="general">General Inquiry</label><br>
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <input type="radio" id="reservation" name="reservation" value="Reservation Question">
                 <label for="reservation">Reservation Question</label><br>
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <input type="radio" id="suggestion" name="suggestion" value="Website Suggestion">
                 <label for="suggestion">Website Suggestion</label><br>
             </div>
         </div>
