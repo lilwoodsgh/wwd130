@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<h1>Basic HTML and CSS Quiz</h1>
+
+<form action="my_quiz.php" method="post">
+    <fieldset>
+        <legend>Question 1:</legend>
+        <label for="q1">What does HTML stand for?</label><br>
+        <input type="text" id="q1" name="q1" required><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Question 2:</legend>
+        <label for="q2">Explain the function of a div element:</label><br>
+        <textarea id="q2" name="q2" rows="4" cols="50" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Question 3:</legend>
+        <label for="q3">Which HTML element is used to define an unordered list?</label><br>
+        <select id="q3" name="q3" required>
+            <option value="">Select an option</option>
+            <option value="ul">ul</option>
+            <option value="ol">ol</option>
+            <option value="li">li</option>
+        </select><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Question 4:</legend>
+        <label for="q4">How many types of selectors are there in CSS?</label><br>
+        <input type="number" id="q4" name="q4" min="1" required><br>
+    </fieldset>
+
+    <input type="submit" value="Submit Quiz">
+</form>
+
+</body>
+</html>
