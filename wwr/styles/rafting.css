@@ -285,3 +285,65 @@ input[type="submit"]:hover {
   font-size: 16px;
 }
 
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbfb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+.trip-description {
+  margin-bottom: 30px;
+}
+
+.trip-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.trip-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.trip-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Table styles */
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
