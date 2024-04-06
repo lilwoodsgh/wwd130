@@ -192,3 +192,96 @@ figcaption {
   font-size: 14px; /* Set caption font size */
 }
 
+.head {
+  height: 150px;
+  padding: 8px 8px 8px 8px;
+  background: #f9f8f8;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+}
+address{
+  border-top: 3px solid white;
+  height: 150px;
+  width: 20%;
+  padding: 8px 8px 8px 8px;
+  background: #fffefe;
+  text-align: justify;
+  border-radius: 3px 3px 3px 3px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+iframe{
+  border-top: 3px solid white;
+  width: 60%;
+  padding: 8px 8px 8px 8px;
+  border-radius: 3px 3px 3px 3px; 
+}
+
+/* Styles for the main container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styles for the form inputs */
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the radio buttons */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Styles for the checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.employee-profiles {
+  text-align: center;
+}
+
+.employee {
+  display: inline-block;
+  margin: 20px;
+}
+
+.employee img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc; /* Border color */
+}
+
+.employee figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
