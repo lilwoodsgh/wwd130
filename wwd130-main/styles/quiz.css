@@ -1,0 +1,74 @@
+/* Apply general styles to the form */
+form {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Center align the h1 heading */
+h1 {
+    text-align: center;
+}
+
+/* Apply styles to fieldsets */
+fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+/* Apply styles to labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Apply styles to text inputs and textareas */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 10px;
+}
+
+/* Apply styles to select dropdowns */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 10px;
+}
+
+/* Apply styles to number inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 10px;
+}
+
+/* Apply styles to submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0261c7;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #034081;
+}
