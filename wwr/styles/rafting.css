@@ -239,7 +239,6 @@ footer .socials {
 footer .socials img {
   width: 25px;
   height: auto;
-  filter: brightness(0) invert(1);
   transition: transform 0.3s ease;
 }
 
