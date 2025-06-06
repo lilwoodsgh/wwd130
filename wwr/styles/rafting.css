@@ -194,7 +194,7 @@ figcaption {
 /*--------footer------- */
 footer {
   background-color: var(--primary-color);
-  color: white;
+  color: rgb(30, 35, 67);
   padding: 20px;
   text-align: center;
 }
