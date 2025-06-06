@@ -194,7 +194,7 @@ figcaption {
 /*--------footer------- */
 footer {
   background-color: var(--primary-color);
-  color: rgb(30, 35, 67);
+  color: white;
   padding: 20px;
   text-align: center;
 }
@@ -209,7 +209,7 @@ footer .socials {
 footer .socials img {
   width: 30px;
   height: auto;
-  filter: brightness(0) invert(1);
+
 }
 
 /* ----responsive grids---------- */
