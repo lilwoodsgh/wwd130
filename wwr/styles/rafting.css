@@ -452,10 +452,15 @@ input[type="submit"]:hover {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(11, 60, 93, 0.7);
+  background-color: rgba(0, 0, 0, 0.66);
   padding: 1.5rem 2rem;
   border-radius: 8px;
-  color: var(--accent2-color);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   z-index: 2;
   max-width: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
